@@ -1,0 +1,41 @@
+#specid{
+    color:red;
+    background-color:lightgreen ;
+}
+.specdot{
+    color: yellow;
+    background-color:darkcyan;
+}
+p {
+    color:yellow;
+    background-color: darkblue;
+}
+
+.spec2{
+    color: white;
+    background-color: purple;
+}
+.spec3{
+    color:cyan;
+    background-color: darkred;
+}
+
+a:link{
+    color:red;
+}
+
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:yellow;
+}
+.spanstyle{
+    color: red;
+}
+
+#dive{
+    background-color: aqua;
+}
