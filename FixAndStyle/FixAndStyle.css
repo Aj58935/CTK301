@@ -1,0 +1,35 @@
+#h1color{
+    color: white;
+}
+
+.headblue{
+    background-color: lightblue;
+}
+h2{
+    color:blue;
+}
+h3{
+    background-color: yellow;
+}
+h4{
+    color:yellow;
+    background-color: green;
+}
+h5{
+    color:red;
+}
+.spanstyle{
+    color:orange;
+}
+.redtext{
+    color:red;
+}
+.grass{
+    background-color: lightgreen;
+}
+.mellow{
+    background-color: yellow;
+}
+a:visited{
+    color:green;
+}
