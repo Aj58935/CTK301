@@ -1,0 +1,121 @@
+body{
+    background-image: url(a62.png);
+  
+}
+header{
+    grid-column: span 12;
+    background-color: black;
+    padding:2px;
+    margin:10px;
+    
+}
+h1{
+    font-family:helvetica, arial, sans-serif;
+    font-weight:normal;
+    color:white;
+    padding:5px;
+}
+h2{
+    font-family:Helvetica,Arial,sans-serif;
+    border-bottom: 3px solid black;
+    padding-bottom:20px;
+     margin-bottom: 20px;
+    
+
+}
+
+
+main {
+    
+    grid-column: 9;
+   margin-right:10px;
+    
+   
+  } 
+  .floatimg{
+    float: left;
+    border:2px solid black;
+    margin-right:5px;
+    padding: 10px;
+    
+    
+  }
+
+  aside{
+    grid-column:span 3;
+    padding: 0 1em 1em 1em;
+}
+  
+#wrapper{
+    width:900px;
+    border: 3px solid black;
+    margin:1em auto;
+    background-color: white;
+    
+    display: grid;
+    
+}
+nav{
+    grid-column: span 2;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+}
+nav li{
+    width:200px;
+    
+    margin:10px;
+    background-color: red;
+    color: white;
+}
+
+nav li a{
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: red;
+    background-image: linear-gradient(to right top, #8c120d, #8b110d, #8a100e, #890e0e, #880d0e);
+
+}
+
+p a{
+    font-weight:bold;
+    color: red;
+    text-decoration: none;
+
+
+}
+p a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.textJustify{
+    text-align: justify;
+    font-weight:bold; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+footer{
+    background-color: red;
+    border: 1px solid black ;
+    padding:10px;
+    margin:1px;
+    text-align: center;
+    font-family: Verdana,  Tahoma, sans-serif;
+    font-style: italic;
+    font-weight:normal;
+    color: white;
+    clear:both;
+    grid-column: span 12;
+}
