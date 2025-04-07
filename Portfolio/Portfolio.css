@@ -1,0 +1,76 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  /* This is for the dummy columns, replace or delete */
+}
+
+h1{
+  grid-column: span 12;
+  color:white;
+  
+  background-image: linear-gradient(to right, #25e74f, #22cf44, #1eb73a, #19a030, #148a26, #107d23, #0c711f, #09651c, #075f1d, #06591e, #06541f, #074e1f);
+  border: 5px solid rgb(12, 12, 230);
+  border-radius:80px;
+  font-size:48px;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center; 
+}
+main{
+  grid-column: span 12;
+  display: flex;
+  gap:24px;
+  margin-left: 120px;
+}
+h2{
+  grid-column: 6;
+  background-color: lightgray;
+  color:Black;
+  border: 5px solid rgb(12, 12, 230);
+  width:540px;
+  border-radius:30px;
+  font-size:32px;
+  font-weight: bold;
+  padding: 24px;
+  text-align: center; 
+}
+section h3{
+  
+  color:blue;
+  border-bottom: 4px solid blue;
+  font-size: 24px;
+
+}
+section img{
+  width: 100%;
+  
+  
+}
+aside{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color: blue;
+    grid-column: span 10;
+    border: 4px solid blue;
+    background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+   width:400px;
+   padding: 0 1em 1em 1em;
+   margin-left: 50px;
+
+}
+
+
+
+
