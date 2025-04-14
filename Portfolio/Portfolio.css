@@ -22,9 +22,12 @@ h1{
   border: 5px solid rgb(12, 12, 230);
   border-radius:80px;
   font-size:48px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 24px;
+  box-shadow: 10px 10px 10px #999; 
+  text-shadow: 2px 2px 2px #000;
   text-align: center; 
+  font-family: "Bad Script", cursive;
 }
 main{
   grid-column: span 12;
@@ -33,7 +36,7 @@ main{
   margin-left: 120px;
 }
 h2{
-  grid-column: 6;
+  grid-column: 4/10;
   background-color: lightgray;
   color:Black;
   border: 5px solid rgb(12, 12, 230);
@@ -42,6 +45,8 @@ h2{
   font-size:32px;
   font-weight: bold;
   padding: 24px;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  text-shadow: 2px 2px 2px blue;
   text-align: center; 
 }
 section h3{
@@ -49,8 +54,9 @@ section h3{
   color:blue;
   border-bottom: 4px solid blue;
   font-size: 24px;
-
+   font-family: "Bad Script", cursive;
 }
+
 section img{
   width: 100%;
   
@@ -68,6 +74,8 @@ aside{
    width:400px;
    padding: 0 1em 1em 1em;
    margin-left: 50px;
+   font-family: "Bad Script", cursive;
+
 
 }
 
