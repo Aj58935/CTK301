@@ -11,6 +11,11 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
 	<link href="Portfolio.css" rel="stylesheet" type="text/css">
 
 	
@@ -19,12 +24,19 @@
 	<div id="wrapper">
 		<h1> AJ's Portfolio</h1>
 		<h2>Projects</h2>
+		
 		<main>
+			<section>
+				<div id="myCarousel" class="f-carousel">
+					<div class="f-carousel__slide"><img src="Futuristic inventory 2.0.png"></div>
+					<div class="f-carousel__slide"><img src="Game design visual space map.jpeg"></div>
+					<div class="f-carousel__slide"><img src="GameImg.png"></div>
+				</div>
+				</section>
 			<section>
 			<h3><i class="bi bi-controller"></i> Game Design </h3> 
 			
 			<img src ="GameImg.png">
-			<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2003961216&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/music-lover-994021454" title="Music Lover" target="_blank" style="color: #cccccc; text-decoration: none;">Music Lover</a> · <a href="https://soundcloud.com/music-lover-994021454/sets/8-bit-music" title="8 bit music" target="_blank" style="color: #cccccc; text-decoration: none;">8 bit music</a></div>
 			<h3> <i class="bi bi-pencil-fill"></i> Narrative/Visual Design</h3>
 
 			<img src = "Futuristic inventory 2.0.png">
@@ -33,9 +45,19 @@
 				<h3> <i class="bi bi-person-circle"></i> Contact</h3>
 				<img src = "IMG_4133.png">
 			</aside>
+
+			
 		</main>
-		
+		<script>   
+			Fancybox.bind("[data-fancybox]", {});
+			const container = document.getElementById("myCarousel");
+			const options = { infinite: true };
+
+			new Carousel(container, options);
+
+		 </script>
 		
 	</div>
+	
 </body>
 </html>
