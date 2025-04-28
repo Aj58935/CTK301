@@ -13,6 +13,32 @@ body {
   grid-column-gap: 24px;
   /* This is for the dummy columns, replace or delete */
 }
+nav{
+  display: inline-block;
+  grid-column: span 12;
+  
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+
+}
+nav li{
+  display: inline-block;
+  width:200px;
+  text-align: center;
+  border: 5px solid blue;
+  margin:10px;
+  background-image: linear-gradient(to right, #25e74f, #22cf44, #1eb73a, #19a030, #148a26, #107d23, #0c711f, #09651c, #075f1d, #06591e, #06541f, #074e1f);
+  color: white;
+}
+nav li a{
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding:10px;
+}
 
 h1{
   grid-column: span 12;
@@ -73,15 +99,29 @@ aside{
     background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
    width:400px;
    padding: 0 1em 1em 1em;
-   margin-left: 50px;
+   margin-left: 70px;
    font-family: "Bad Script", cursive;
 
 
 }
+.description{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  color: blue;
+  grid-column: span 8;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+ width:300px;
+ padding: 0 1em 1em 1em;
+ margin-left: 70px;
+}
 #myCarousel{
   margin-bottom: 12px;
+  grid-column: 4/10;
 }
-
+#myCarousel img{
+  width:90%;
+}
 #myCarousel .f-carousel__slide {
   text-align: center;
   padding: 12px;
@@ -103,6 +143,7 @@ aside{
   --f-button-hover-bg: #096118;
   --f-button-active-bg: #310ead;
 }
+
 
 
 
