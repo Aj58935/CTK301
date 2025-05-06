@@ -16,6 +16,15 @@ body {
   grid-column-gap: 24px;
   /* This is for the dummy columns, replace or delete */
 }
+section p a{
+  color:blue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+section p a:hover{
+  color:green;
+  font-size:20px;
+}
 nav{
   display: inline-block;
   grid-column: span 12;
@@ -159,7 +168,7 @@ aside{
     color: blue;
     grid-column: span 10;
     border: 4px solid blue;
-    background-image: linear-gradient(to right top, #767872, #8b908d,#a3a9a8, #bec2c3, #c1c2c4);
+    background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
    width:400px;
    height: 600px;
    padding: 0 1em 1em 1em;
@@ -175,11 +184,36 @@ aside{
   color: white;
   grid-column: span 8;
   border: 4px solid blue;
-  background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
   width:300px;
   padding: 0 1em 1em 1em;
   margin-left: 50px;
 
+}
+.about{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:justify;
+  color: white;
+  grid-column: span 12;
+  font-size:24px;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
+  width:400px;
+  padding: 0 1em 1em 1em;
+  margin-left: 250px;
+  
+}
+.about img{
+  margin-left: 50px;
+}
+
+.about h3{
+  color:white;
+  font-family: "Bad Script", cursive;
+  font-size:30px;
+  border-bottom: 4px solid blue;
+  text-align: center;
+  
 }
 .description h3{
   color:white;
@@ -191,7 +225,7 @@ aside{
   color: white;
   grid-column: span 8;
   border: 4px solid blue;
-  background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
  width:250px;
  padding: 0 1em 1em 1em;
  margin-left: 50px;
