@@ -1,11 +1,14 @@
 body {
-  background-color: #999999;
+  background-image: linear-gradient(to right top, #767872, #8b908d,#a3a9a8, #bec2c3, #c1c2c4);
+  /* background-color: #999999;*/
+  
+
 }
 
 #wrapper {
   margin: 24px auto;
   width: 1200px;
-  border: 1px solid black;
+  border: 3px solid blue;
   padding: 24px;
   background-color: #ffffff;
   display: grid;
@@ -38,6 +41,12 @@ nav li a{
       text-decoration: none;
       display: block;
       padding:10px;
+      transition: all .5s;
+}
+nav li a:hover{
+  background-color: darkgreen;
+  color: blue;
+  
 }
 
 h1{
@@ -58,6 +67,13 @@ h1{
 main{
   grid-column: span 12;
   display: flex;
+  gap:24px;
+  margin-left: 120px;
+}
+#Game{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:24px;
   margin-left: 120px;
 }
@@ -82,12 +98,59 @@ section h3{
   font-size: 24px;
    font-family: "Bad Script", cursive;
 }
+section h3 a{
+  
+  color:blue;
+  display: block;
+  font-size: 24px;
+   font-family: "Bad Script", cursive;
+}
+section h3 a:hover{
+  color:green;
+  font-size: 24px;
+   font-family: "Bad Script", cursive;
+}
+aside h3 a{
+  color:blue;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+   font-family: "Bad Script", cursive;
+}
+aside h3 a:hover{
+  color:green;
+  font-size: 30px;
+   font-family: "Bad Script", cursive;
+}
+
+section a{
+  text-decoration: none;
+  
+}
+section a:hover{
+  
+  color: blue;
+  
+  
+}
 
 section img{
   width: 100%;
   
   
 }
+section a:hover img{
+  transform:scale(1.1);
+}
+aside a:hover img{
+  transform:scale(1.1);
+}
+
+.changesize{
+  width:60%;
+}
+
+
 aside{
     font-size: 30px;
     font-weight: bold;
@@ -96,31 +159,54 @@ aside{
     color: blue;
     grid-column: span 10;
     border: 4px solid blue;
-    background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+    background-image: linear-gradient(to right top, #767872, #8b908d,#a3a9a8, #bec2c3, #c1c2c4);
    width:400px;
+   height: 600px;
    padding: 0 1em 1em 1em;
-   margin-left: 70px;
+   margin-left: 90px;
+   margin-top: 70px ;
    font-family: "Bad Script", cursive;
 
 
 }
 .description{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
-  color: blue;
+  text-align:justify;
+  color: white;
   grid-column: span 8;
   border: 4px solid blue;
   background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
- width:300px;
+  width:300px;
+  padding: 0 1em 1em 1em;
+  margin-left: 50px;
+
+}
+.description h3{
+  color:white;
+}
+
+.skills{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  color: white;
+  grid-column: span 8;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #dadbdc, #bec2c3, #a3a9a8, #8b908d, #767872);
+ width:250px;
  padding: 0 1em 1em 1em;
- margin-left: 70px;
+ margin-left: 50px;
+}
+.skills h3{
+  color:white;
 }
 #myCarousel{
   margin-bottom: 12px;
   grid-column: 4/10;
+  border:3px solid blue;
 }
 #myCarousel img{
   width:90%;
+  height:100%;
 }
 #myCarousel .f-carousel__slide {
   text-align: center;
@@ -135,12 +221,13 @@ aside{
   --f-button-svg-height: 16px;
   --f-button-svg-stroke-width: 2.5;
 
-  --f-button-color: rgb(236, 233, 31);
+  --f-button-color: rgb(40, 26, 248);
   --f-button-border-radius: 50%;
   --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgba(125, 20, 223, 0.3);
 
   --f-button-bg: #09af32;
   --f-button-hover-bg: #096118;
+  --f-button-hover-color:blue;
   --f-button-active-bg: #310ead;
 }
 
